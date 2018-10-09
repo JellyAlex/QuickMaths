@@ -7,13 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" Height="392" Width="245">
-            <Label Content="Quick Maths" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Top" FontSize="24" FontFamily="Courier New"/>
-            <Button Content="Year 7" HorizontalAlignment="Center" Margin="38,37,38,0" VerticalAlignment="Top" FontFamily="Courier New" FontSize="18" Padding="0,20,0,22" Width="169"/>
-            <Button Content="Year 8" HorizontalAlignment="Center" Margin="38,0" VerticalAlignment="Top" FontFamily="Courier New" FontSize="18" Padding="0,20,0,22" Width="169"/>
-            <Button Content="Year 9" HorizontalAlignment="Center" Margin="38,0" VerticalAlignment="Top" FontFamily="Courier New" FontSize="18" Padding="0,20,0,22" Width="169"/>
-            <Button Content="Year 10" HorizontalAlignment="Center" Margin="38,0" VerticalAlignment="Top" FontFamily="Courier New" FontSize="18" Padding="0,20,0,22" Width="169"/>
-        </StackPanel>
+        <Frame Source="MainMenu.xaml" NavigationUIVisibility="Hidden"/>
+        
+
 
     </Grid>
 </Window>
